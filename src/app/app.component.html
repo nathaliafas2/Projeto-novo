@@ -1,53 +1,78 @@
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome! Customize Bootstrap with Sass</title>    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome! Customize Bootstrap with Sass</title>
 
 </head>
+
 <body>
- <div class="container" >
- <div class="row">
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <div class="container">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg .bg-gradient">
         <div class="container-fluid">
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Sobre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Descrição</a>
+                <a class="nav-link" href="#">Contato</a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar na página" aria-label="Search">
+              <button class="btn btn-outline-success bg-secondary" type="submit">Buscar</button>
             </form>
           </div>
         </div>
       </nav>
 
-<div class="container">
-<div class="row">
-  <div class="col-xl pt-3">
-    <img src="/assets/img/persona.png"  class="rounded-circle" >
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, laborum hic, quia maiores animi nobis eligendi est eos saepe architecto reiciendis! Aliquam inventore distinctio reprehenderit corporis amet assumenda officiis dolorem, animi delectus sunt dolor commodi. Adipisci nam nemo labore eligendi quas, rem ipsum iusto eveniet itaque vero necessitatibus! Quas, cupiditate tempora unde nam exercitationem libero aut labore deserunt nesciunt voluptate dignissimos quis porro reprehenderit maiores excepturi, esse, nisi dolores sit tenetur voluptatum corrupti alias provident pariatur? Quam illo unde autem, fugit numquam dolores, odio sed rem saepe exercitationem fuga, nisi soluta sunt officiis! Similique, vero repudiandae quae dignissimos fuga natus!
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="/assets/img/persona.png" class="rounded-circle col-6">
+          </div>
+          <div class="col-md-4 " text-align:center>
+            <h1 text-align:center>BLOG DO PROJETO ARQUITETURA FRONT END</h1>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="col-xl border pt-3" px="10">
+            <p>Atividade 1 - Arquitetura de Front-End</p>
+            <p>Lorem ipsum dolor sit amet. Sed modi aperiam officiis nobis nam quis nihil ut repudiandae provident! Ea
+              sunt tempora ea tempora unde At excepturi quis et amet similique ea galisum facere. Et placeat quia qui
+              provident voluptas ut repellat nemo vel sunt beatae non aspernatur maxime. Est eius aliquam est unde
+              distinctio ab enim eveniet.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xl pt-3" px="15">
+            <b>Ultimas do Blog</b>
+          </div>
+        </div>
+        <div class="row pt-3">
+          POSTAGEM 1
+        </div>
+        <div class="row">
+          POSTAGEM 2
+        </div>
+        <div class="row">
+          POSTAGEM 3
+        </div>
+      </div>
     </div>
-</div>
-</div>
-
-<div class="container">
-  <div class="border border-primary" px="10"></div>  
-</div>
- </div>
-
- </div>
-    
+    </div>
 </body>
 </html>
