@@ -1,23 +1,23 @@
 
 //Alterando cor da página e da fonte principal
 $body-bg: rgb(255, 255, 255);
-$body-color: rgb(92, 53, 2);
+$body-color: rgb(59, 70, 57);
 $border-color: rgb(92, 53, 2);
-$navbar-light-color: rgb(223, 245, 181);
-$nav-link-color: rgb(243, 10, 49);
+$navbar-light-color: rgb(16, 24, 2);
+$nav-link-color: rgb(42, 56, 33);
 
 // scss-docs-end t
 $enable-gradients: true;
-$gradient: linear-gradient(180deg, rgba(rgb(62, 109, 34), .80), rgba(rgb(62, 104, 9), .80));
+$gradient: linear-gradient(180deg, rgba(rgb(214, 220, 233), .80), rgba(rgb(255, 255, 255), .80));
 
 $theme-colors: (
-  "primary":    rgb(62, 109, 34),
-  "secondary":  rgb(194, 89, 120)
+  "primary":    rgb(129, 161, 109),
+  "secondary":  rgb(167, 73, 101)
 ) !default;
 
 .btn-outline-success{
   --bs-btn-color: #e7bd31;
-  --bs-btn-border-color: #75eb27;
+  --bs-btn-border-color: rgb(129, 161, 109);
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #198754;
   --bs-btn-hover-border-color: #198754;
@@ -29,7 +29,7 @@ $theme-colors: (
   --bs-btn-disabled-color: #198754;
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #198754;
-  --bs-gradient: true;
+  --bs-gradient: false;
 }
 
 .p{
