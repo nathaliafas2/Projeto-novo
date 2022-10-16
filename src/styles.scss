@@ -5,6 +5,8 @@ $body-color: rgb(59, 70, 57);
 $border-color: rgb(92, 53, 2);
 $navbar-light-color: rgb(16, 24, 2);
 $nav-link-color: rgb(42, 56, 33);
+$corDescricaoPerfil: rgb(129, 161, 109);
+$corTituloDescricao: rgb(167, 73, 101);
 
 // scss-docs-end t
 $enable-gradients: true;
@@ -15,26 +17,14 @@ $theme-colors: (
   "secondary":  rgb(167, 73, 101)
 ) !default;
 
-.btn-outline-success{
-  --bs-btn-color: #e7bd31;
-  --bs-btn-border-color: rgb(129, 161, 109);
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #198754;
-  --bs-btn-hover-border-color: #198754;
-  --bs-btn-focus-shadow-rgb: 25, 135, 84;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #198754;
-  --bs-btn-active-border-color: #198754;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #198754;
-  --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #198754;
-  --bs-gradient: false;
+.descricaoPerfil{
+  font-size: 20px;
+  color: $corDescricaoPerfil;
 }
 
-.p{
-  font-size: medium;
-  font-style: var(--bs-btn-active-bg)
+.tituloDescricaoPerfil{
+$corTituloDescricao: rgb(167, 73, 101);
+  color: $corTituloDescricao;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
